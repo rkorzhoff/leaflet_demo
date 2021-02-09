@@ -1,0 +1,24 @@
+.wrapper {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mapid {
+  text-align: center;
+  height: 600px;
+  width: 600px;
+  cursor: pointer;
+}
+.leaflet-marker-icon,
+.leaflet-marker-shadow {
+  animation: 0.4s ease-out show-marker;
+}
+@keyframes show-marker {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
